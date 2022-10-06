@@ -4,7 +4,8 @@ import Navbar from './components/navbar/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import TextTyping from './components/Animations/TextTyping';
+import TextTyping from './pages/TextAnimations/TextTyping_1/TextTyping';
+import TextFlashing from './pages/TextAnimations/TextFalashing/TextFlashing';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/textTyping" element={<TextTyping />} />
+        <Route path="/animate2" element={<TextFlashing />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </div>
