@@ -26,6 +26,7 @@ function Navbar() {
           <NavLink to="/contact" className="mr-5 hover:text-gray-900">Contact</NavLink>
           <NavLink to="/textTyping" className="mr-5 hover:text-gray-900">Animations</NavLink>
           <NavLink to="/animate2" className="mr-5 hover:text-gray-900">Animations 2</NavLink>
+          <NavLink to="/typing2" className="mr-5 hover:text-gray-900">Typing 2</NavLink>
         </nav>
         <button type="button" className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Button
